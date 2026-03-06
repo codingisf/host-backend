@@ -1,7 +1,7 @@
 const pool = require("../config/db.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-require("dotenv").config();
+
 
 // SignUp
 exports.signup = async (req, res) => {
@@ -71,6 +71,7 @@ try {
 }
 
 };
+
 
 
 
